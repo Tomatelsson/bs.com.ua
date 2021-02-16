@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-
     font-size: 15px;
     line-height: 1.6;
     color: #848D92;
@@ -22,6 +21,16 @@ h6 {
     margin: 0;
 }
 
+.theme {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #B0956E;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 21px;
+
+}
 
 /* Container */
 .container {
@@ -35,7 +44,6 @@ h6 {
     width: 100%;
     height: 100px;
     background-color: #1f1f1f;
-
     position: absolute;
     top: 0;
     left: 0;
@@ -93,10 +101,8 @@ h6 {
     vertical-align: top;
     margin: 0 15px;
     position: relative;
-
     color: #fff;
     text-decoration: none;
-
     transition: color .1s linear;
 }
 
@@ -105,15 +111,12 @@ h6 {
     display: block;
     width: 100%;
     height: 3px;
-
     background-color: #B59971;
     opacity: 0;
-
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1;
-
     transition: opacity .1s linear;
 }
 
@@ -135,9 +138,7 @@ h6 {
     display: inline-block;
     vertical-align: top;
     padding: 8px 30px;
-
     border: 3px solid #B59971;
-
     font-size: 14px;
     font-weight: 700;
     color: #B59971;
@@ -153,6 +154,7 @@ h6 {
 }
 
 
+
 /* Intro */
 .intro {
     display: flex;
@@ -160,7 +162,6 @@ h6 {
     justify-content: center;
     width: 100%;
     height: 100vh;
-
     background: url("../img/intro_bg.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -179,11 +180,10 @@ h6 {
 /* Contact-bar */
 .contact-bar {
     width: 100%;
-
-
     position: absolute;
     bottom: -75px;
     z-index: 1;
+    justify-content: center;
 }
 
 .contact-bar__inner {
@@ -230,4 +230,68 @@ h6 {
 
 .social {
     padding-left: 10px;
+}
+
+/*History*/
+.history {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.history__inner {
+    margin-top: 225px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 30px 0;
+}
+
+
+.history__tagline {
+    width: 50%;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #173E62;
+    margin-right: 75px;
+    line-height: 1em;
+
+
+}
+
+
+.history__tagcount-left {
+    font-family: 'Lora', serif;
+    font-size: 64px;
+    color: #B0956E;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1em;
+    align-items: center;
+
+}
+
+.history__tagcount-right {
+    font-family: 'Lora', serif;
+    font-size: 64px;
+    color: #B0956E;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1em;
+    align-items: center;
+
+
+
+}
+
+.undercount {
+    font-family: 'Montserrat', sans-serif;
+    color: #173E62;
+    font-size: 18px;
+    align-items: center;
 }
